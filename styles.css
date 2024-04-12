@@ -1,0 +1,29 @@
+*:not(div) {
+    line-height: 20px;
+    padding-left: 20px;
+}
+
+ul li,
+ol li {
+    list-style: none;
+    padding-left: 0px;
+    padding-top: 15px;
+    padding-bottom:10px;
+}
+
+.exclude {
+    padding-bottom: 10px;
+    padding-top: 0px;
+}
+
+p,li {
+    max-width: 600px;
+}
+
+ol img {
+    padding-left: 0;
+}
+
+h2 {
+    padding-top: 25px;
+}
