@@ -1,23 +1,64 @@
-*:not(div) {
-    line-height: 20px;
-    padding-left: 20px;
+* {
+    line-height: 15px;
+    padding: 0;
+    margin: 0;
+    /* padding-left: 20px; */
 }
 
-ul li,
-ol li {
-    list-style: none;
-    padding-left: 0px;
-    padding-top: 15px;
-    padding-bottom:10px;
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(141, 52, 52);
+    color: whitesmoke;
 }
+
+h1 {
+    margin: 15px auto;
+    text-align: center;
+}
+
+ul li {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+ol li {
+    list-style-position: inside;
+    width: 600px;
+}
+
+ul li {
+    list-style: none
+}
+
+ol, ul, p {
+    border: 1px solid whitesmoke;
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    color: rgb(141, 52, 52);
+    box-shadow: darkred 5px 5px;
+    border-radius: 10px;
+}
+
 
 .exclude {
     padding-bottom: 10px;
     padding-top: 0px;
 }
 
+img {
+    margin: 15px auto;
+    display: block;
+    border: 2px solid darkred;
+}
+
 p,li {
-    max-width: 600px;
+    text-align: justify;
+    margin: 0 auto;
+
 }
 
 ol img {
@@ -25,5 +66,14 @@ ol img {
 }
 
 h2 {
-    padding-top: 25px;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+a {
+    color: whitesmoke;
+    font-size: 1em;
+    padding: 20px;
+    display: block;
 }
